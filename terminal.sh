@@ -1,8 +1,12 @@
 #!/usr/bin/tmux source-file
 
 tmux new-session -d
-#cmatrix
-#sleep 1
+
+figlet TEST
+sleep 2
+cmatrix &
+sleep 4
+killall cmatrix inotifywait
 
 #figlet -x -c TERMINAL
 #figlet -x -c BY
