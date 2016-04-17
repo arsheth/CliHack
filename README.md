@@ -1,5 +1,5 @@
 # CliHack
-Command Line Hack for Social Utilities and Entertainment.
+This project is a Command Line Hack for Social Utilities and Entertainment.
 Since running common tasks on GUI is too main stream, we wanted to play around with the terminal to 
 try and perform as many common tasks via the command line without lifting your hands of the keyboard.
 
