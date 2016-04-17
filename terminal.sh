@@ -2,7 +2,7 @@
 
 tmux new-session -d
 
-figlet TEST
+figlet "CLI-Hack"
 sleep 2
 cmatrix &
 sleep 4
@@ -23,7 +23,7 @@ tmux split-window -d -t 3 -v -p 10
 #tmux split-window -d -t 2 -v
 
 tmux send-keys -t 0 '~/myman/myman' enter
-tmux send-keys -t 3 'sh newspot.sh' enter
+tmux send-keys -t 3 './newspot.sh' enter
 tmux send-keys -t 4 './googleContacts.sh' enter
 tmux send-keys -t 1 'youtube-dl http://www.youtube.com/watch?v=10r9ozshGVE -o - | mplayer -vo matrixview:cols=400:rows=320 -'
 tmux send-keys -t 2 'alpine' enter

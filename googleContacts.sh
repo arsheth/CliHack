@@ -1,7 +1,13 @@
 #!/bin/bash
 
 
-read -p "enter the contact name from your contact list `echo $'\n> '`" name
+echo "Running Birthday Script"
+./bday.sh
+
+echo -e "Starting Messaging App"
+echo
+
+read -p "enter the contact name with whom you want to chat `echo $'\n> '`" name
 txt=$(/usr/local/bin/goobook  dquery $name)
 
 tt=`echo $txt`
